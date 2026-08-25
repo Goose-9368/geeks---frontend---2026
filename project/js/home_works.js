@@ -29,17 +29,39 @@ gmailInput.addEventListener("keydown", (event) => {
 const parentBlock = document.querySelector(".parent_block");
 const childBlock = document.querySelector(".child_block");
 
-let position = 0;
+let positionX = 0;
 
 const moveRedSquare = () => {
-    const maxPosition = parentBlock.clientWidth - childBlock.offsetWidth;
+    positionX++;
+    childBlock.style.left = `${position}px`;
 
-    if (position < maxPosition) {
-        position += 1;
-        childBlock.style.left = `${position}px`;
+    if (positionX < 448) {
 
-        setTimeout(moveRedSquare, 10);
+        requestAnimationFrame(moveRedSquare);
     }
 };
 
 moveRedSquare();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
