@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root { font-family: Inter, Arial, sans-serif; color: #242039; background: #f7f6fb; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+body::before { content: ''; position: fixed; inset: 0; z-index: -1; background: radial-gradient(circle at 10% 0%, rgba(183,174,255,.32), transparent 30%), radial-gradient(circle at 95% 15%, rgba(255,200,224,.34), transparent 28%), #f7f6fb; }
+.app { min-height: 100vh; }
+
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; } }
