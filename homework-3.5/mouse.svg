@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ff"/><stop offset="1" stop-color="#bfd7ff"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcfdff"/><stop offset="1" stop-color="#99b8e7"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#4d72aa" flood-opacity=".27"/></filter>
+  </defs>
+  <rect width="800" height="600" rx="50" fill="url(#bg)"/>
+  <path d="M78 470c150-102 275 58 405-22s158-59 245-11" fill="none" stroke="#fff" stroke-width="9" opacity=".35"/>
+  <g transform="rotate(12 400 300)" filter="url(#s)">
+    <path d="M400 94c-116 0-188 92-188 238 0 121 68 188 188 188s188-67 188-188C588 186 516 94 400 94Z" fill="url(#body)"/>
+    <path d="M400 96v176" fill="none" stroke="#7896c3" stroke-width="5" opacity=".7"/>
+    <path d="M216 286h368" fill="none" stroke="#7896c3" stroke-width="5" opacity=".42"/>
+    <rect x="380" y="168" width="40" height="76" rx="20" fill="#6d8fca"/>
+    <rect x="388" y="180" width="24" height="36" rx="12" fill="#d9e7ff"/>
+  </g>
+</svg>
+

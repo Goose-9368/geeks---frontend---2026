@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eceef0"/><stop offset="1" stop-color="#b8bec5"/></linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b3f47"/><stop offset="1" stop-color="#111316"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#aa96ff"/><stop offset="1" stop-color="#62d9ff"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#30343a" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="800" height="600" rx="50" fill="url(#bg)"/>
+  <path d="M100 122 700 480M74 216l548 326" stroke="#fff" stroke-width="5" opacity=".18"/>
+  <g filter="url(#s)">
+    <path d="M336 44h128l22 154H314L336 44ZM314 402h172l-22 154H336l-22-154Z" fill="#2e3238"/>
+    <rect x="260" y="160" width="280" height="280" rx="72" fill="#666d76"/>
+    <rect x="280" y="180" width="240" height="240" rx="57" fill="url(#screen)"/>
+    <circle cx="400" cy="300" r="76" fill="none" stroke="url(#glow)" stroke-width="14" stroke-linecap="round" stroke-dasharray="390 90"/>
+    <text x="400" y="304" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="38" font-weight="700">10:08</text>
+    <text x="400" y="338" text-anchor="middle" fill="#aeb5bd" font-family="Arial, sans-serif" font-size="15">THU 08 OCT</text>
+    <rect x="535" y="246" width="16" height="68" rx="8" fill="#4b5058"/>
+  </g>
+</svg>
+

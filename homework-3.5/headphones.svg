@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eee9ff"/><stop offset="1" stop-color="#d7caff"/></linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8f78f0"/><stop offset="1" stop-color="#5f48c8"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#56449b" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="800" height="600" rx="50" fill="url(#bg)"/>
+  <circle cx="644" cy="112" r="70" fill="#fff" opacity=".3"/>
+  <circle cx="130" cy="500" r="94" fill="#b9a6fa" opacity=".35"/>
+  <g filter="url(#s)">
+    <path d="M250 320v-55c0-105 62-175 150-175s150 70 150 175v55" fill="none" stroke="#39334e" stroke-width="42" stroke-linecap="round"/>
+    <path d="M276 301v-34c0-83 48-138 124-138s124 55 124 138v34" fill="none" stroke="url(#body)" stroke-width="30" stroke-linecap="round"/>
+    <rect x="205" y="287" width="130" height="220" rx="60" fill="#292633"/>
+    <rect x="465" y="287" width="130" height="220" rx="60" fill="#292633"/>
+    <rect x="231" y="313" width="78" height="168" rx="38" fill="url(#body)"/>
+    <rect x="491" y="313" width="78" height="168" rx="38" fill="url(#body)"/>
+  </g>
+</svg>
+

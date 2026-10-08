@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9fff3"/><stop offset="1" stop-color="#bdebd2"/></linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#414c48"/><stop offset="1" stop-color="#202724"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#32614b" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="800" height="600" rx="50" fill="url(#bg)"/>
+  <circle cx="680" cy="110" r="82" fill="#fff" opacity=".25"/>
+  <g transform="rotate(-7 400 300)" filter="url(#s)">
+    <rect x="112" y="188" width="576" height="258" rx="34" fill="url(#board)"/>
+    <g fill="#c8f1da">
+      <rect x="145" y="220" width="48" height="42" rx="9"/><rect x="205" y="220" width="48" height="42" rx="9"/><rect x="265" y="220" width="48" height="42" rx="9"/><rect x="325" y="220" width="48" height="42" rx="9"/><rect x="385" y="220" width="48" height="42" rx="9"/><rect x="445" y="220" width="48" height="42" rx="9"/><rect x="505" y="220" width="48" height="42" rx="9"/><rect x="565" y="220" width="88" height="42" rx="9"/>
+      <rect x="145" y="276" width="72" height="42" rx="9"/><rect x="229" y="276" width="48" height="42" rx="9"/><rect x="289" y="276" width="48" height="42" rx="9"/><rect x="349" y="276" width="48" height="42" rx="9"/><rect x="409" y="276" width="48" height="42" rx="9"/><rect x="469" y="276" width="48" height="42" rx="9"/><rect x="529" y="276" width="124" height="42" rx="9"/>
+      <rect x="145" y="332" width="92" height="42" rx="9"/><rect x="249" y="332" width="48" height="42" rx="9"/><rect x="309" y="332" width="48" height="42" rx="9"/><rect x="369" y="332" width="48" height="42" rx="9"/><rect x="429" y="332" width="48" height="42" rx="9"/><rect x="489" y="332" width="48" height="42" rx="9"/><rect x="549" y="332" width="104" height="42" rx="9"/>
+      <rect x="145" y="388" width="116" height="30" rx="8"/><rect x="273" y="388" width="252" height="30" rx="8"/><rect x="537" y="388" width="116" height="30" rx="8"/>
+    </g>
+  </g>
+</svg>
+
